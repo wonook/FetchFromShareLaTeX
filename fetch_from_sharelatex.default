@@ -1,0 +1,3 @@
+# remove .default from the file name, after filling in the email and password below.
+# password could be left out blank, if you prefer, but you will have to type it in every time.
+python3 fetch_from_sharelatex.py http://147.46.247.143:5050/project/SHARELATEX_PROJECTURL SHARELATEX_EMAIL [SHARELATEX_PASSWORD]
