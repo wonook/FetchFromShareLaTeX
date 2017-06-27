@@ -12,7 +12,7 @@ import getpass
 
 # Download sharelatex project and extract and delete the zip file.
 def main(argv):
-    if (len(sys.argv) is not 4 or len(sys.argv) is not 3):
+    if len(sys.argv) is not 4 and len(sys.argv) is not 3:
         print("please fix fetch_from_sharelatex.default")
         return
 
