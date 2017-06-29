@@ -26,7 +26,10 @@ def main(argv):
     print("Downloading files: {}...".format(download_url))
 
     email = sys.argv[2]
-    password = sys.argv[3]
+    if len(sys.argv) is 4:
+        password = sys.argv[3]
+    else:
+        password = None
 
     try:
         session = requests.Session()
